@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo su
 cd /var/www/project
 docker-compose up -d
 docker exec   app composer install
