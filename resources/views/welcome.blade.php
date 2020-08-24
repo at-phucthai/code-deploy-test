@@ -88,7 +88,7 @@
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">phuc thai test</a>
                     <a href="https://laravel-news.com">Load</a>
-                    <a href="https://blog.laravel.com">Blog</a>
+                    <a href="https://blog.laravel.com">abc</a>
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
