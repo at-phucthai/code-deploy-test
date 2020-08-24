@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo su
+cd /var/www/project
+docker-compose up -d
+docker exec   app composer install
+docker exec   app php artisan key:generate
+docker exec   app php artisan db:seed

@@ -1,0 +1,6 @@
+sudo su
+cd /var/www/project
+cp .env.example .env
+chmod -R 777 .env
+chmod -R 777 storage/
+chmod -R 777 bootstrap/

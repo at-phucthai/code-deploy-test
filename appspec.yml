@@ -1,0 +1,19 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/project
+hooks:
+  BeforeInstall:
+    - location: scripts/install_software
+      timeout: 3000
+      runas: root
+  AfterInstall:
+    - location: scripts/set_permission
+      timeout: 300
+      runas: root
+
+  ApplicationStart:
+    - location: scripts/start_docker
+      timeout: 300
+      runas: root
